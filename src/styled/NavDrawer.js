@@ -12,6 +12,8 @@ const StayVisible = styled.div`
 export const NavToggleButton = (props) => {
 	return (
 		<StayVisible
+      open={props.open}
+      width={props.width}
 			{...props}
 		>
 			<FloatingActionButton

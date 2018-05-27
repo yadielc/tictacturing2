@@ -8,7 +8,7 @@ import Menu from 'material-ui/svg-icons/navigation/menu'
 
 class NavDrawer extends Component {
     state = {
-      open: false
+      open: true
     }
 
     toggle = () => {

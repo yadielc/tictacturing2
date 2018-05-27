@@ -25,6 +25,7 @@ class NavDrawer extends Component {
           <NavToggleButton
             toggle={this.toggle}
             width={this.state.width}
+            open={this.state.open}
           />
           <Drawer
             open={this.state.open}

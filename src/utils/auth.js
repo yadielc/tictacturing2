@@ -1,6 +1,6 @@
 import Auth0Lock from 'auth0-lock'
-const authDomain = 'ysites.auth0.com'
-const clientId = 'PnqB7NfjvfOyV0xi0694HImEizzwEVVh'
+const authDomain = 'carlpeaslee.auth0.com'
+const clientId = 'kpcjF5KAIOOGe2Sm4n4NnPFjFhg9YwPI'
 
 class AuthService {
 	constructor() {
@@ -64,7 +64,12 @@ class AuthService {
 	logout = () => {
 		localStorage.removeItem('idToken')
 		localStorage.removeItem('exp')
-		location.reload()
+
+		window.location.reload()
 	}
 
 }
+
+const auth = new AuthService()
+
+export default auth

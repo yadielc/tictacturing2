@@ -13,8 +13,6 @@ It allows the following:
 
 Here's a couple of screenshots of the application at runtime. <br> 
 
-<img width="600" alt="screen shot 2018-05-28 at 8 15 22 pm" src="https://user-images.githubusercontent.com/33431535/40632357-f82cfee0-62b3-11e8-9e93-71c50f044e91.png"><br> 
-
 <img width="600" alt="screen shot 2018-05-28 at 8 25 02 pm" src="https://user-images.githubusercontent.com/33431535/40632440-34c1954a-62b5-11e8-8cac-f65313764842.png">
 
 Here's a scenario of when the user wins: <br> 
